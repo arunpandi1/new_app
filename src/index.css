@@ -1,0 +1,590 @@
+.backone{
+    background-image:linear-gradient(rgb(0,0,0,0.7),rgb(0,0,0,0.7)) ,url(./newproject/pexels-hamit-ferhat-hazar-14882267.jpg);
+    background-size: cover;
+    height:626px;
+    filter: blur(0.3px);
+    color: white;
+
+}
+
+.new-oneone{
+ display: flex;
+ justify-content: space-between;
+ 
+}
+.new{
+    /* justify-content: space-between; */
+}
+.navbar-nav{
+    /* margin-left: 300px; */
+    /* padding-left: 100px; */
+    position: absolute;
+    /* background-color: rgb(0,0,0,0.2); */
+
+}
+.program{
+
+    color:#d18c0b ;
+    background: rgb(0,0,0,0.7);
+    font-size: 20px;
+    border-radius: 5px ;
+    border: none;
+    padding: 5px;
+}
+.programone{
+    color:#d18c0b ;
+    background: rgb(0,0,0,0.7);
+    font-size: 20px;
+    border-radius: 5px ;
+    border: 1px soild red;
+    margin-left: 30px;
+    border: none;
+    padding: 5px;
+}
+.logoo{
+margin-left: -110px;
+}
+*{
+    font-family: cursive;
+
+}
+ .new{
+    background-color: rgb(0,0,0,0.2)
+}
+.logo {
+    color: red;
+}
+/* //home......................................................................... */
+
+.head-one{
+    text-align: center;
+    color: white;
+    margin-top: -180px;
+}
+@media (max-width:900px){
+    .head-one{
+        margin-top: -120px;
+    }
+}
+.heado{
+    margin-top: 200px;
+    font-size: 50px;
+    padding-bottom: 20px;
+}
+@media (max-width:900px){
+    .heado{
+        font-size: 40px;
+    }
+}
+.headt{
+    font-size: 22px;
+}
+@media (max-width:900px){
+    .headt{
+        font-size: 20px;
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+}
+.steptwo{
+    text-align: center;
+    color: black;
+}
+.steptwo h1{
+    font-size: 40px;
+    padding-bottom: 20px;
+}
+.navbar-nav {
+    /* margin-left: 500px;
+    margin-top: -40px; */
+}
+.navbar-nav li{
+    padding-left: 20px;
+}
+/*nested router...................................................*/
+.acade li{
+    list-style-type: none;
+    display: inline;
+    padding:90px;
+    margin-left: 180px;
+
+}
+.acadethree {
+    font-size: 30px;
+    color: white;
+    background-color: #d18c0b;
+    text-decoration: none;
+    border-radius: 6px;
+    padding: 5px;
+    
+}
+.acadefour{
+    font-size: 30px;
+    color:white;
+    background-color: #d18c0b;
+    text-decoration: none;
+    border-radius: 6px;
+    padding: 5px;
+}
+.acade li :hover{
+    background-color: #aa8136;
+    color: rgb(33, 30, 30);
+    transition: 2s;
+}
+
+.acamain{
+    display: flex;
+    justify-content: space-around;
+}
+.mainacade {
+    text-align: center;
+    margin-top: 120px;
+    font-size: 160px;
+    padding-bottom: 200px;
+}
+.mainacade h1{
+    font-size: 60px;
+}
+.acamain{
+    color: black;
+   
+}
+.acamain h1{
+    font-size: 45px;
+    padding-bottom: 20px;
+}
+.acamain p{
+    font-size: 20px;
+    padding-right: 50px;
+}
+.acamain a{
+    margin-top: 20px;
+    margin-bottom: 90px;
+}
+img:hover{
+    opacity: 0.3px;
+}
+/* finally academics.............................................*/
+.acadefive{
+    margin-top: -29px;
+height: 800px;
+justify-content: center;
+/* display: flex; */
+/* flex-direction: row; */
+}
+@media (max-width:1000px){
+    .acadefive{
+        height: auto;
+    }
+}
+.headline{
+    margin-top: 30px;
+    padding: 15px;
+    
+}
+
+.formone {
+    background-color: rgb(159, 151, 151);
+    width: 500px;
+    height: auto;
+    margin-top:70px;
+    box-shadow: 2px 1px 2px3px gray;
+    border-radius: 7px;
+    margin-left: 230px;
+}
+@media (max-width:576px) {
+    .formone{
+        margin-left:30px;
+        width: 270px;
+        height: 40px;
+
+        position: relative;
+    }}
+    @media (max-width:576px){
+        .icon-one{
+            font-size: 20px;
+        }
+    }
+.icon-one{
+    font-size:30px;
+color: 
+black;
+padding: 8px;
+
+}
+.inputtext{
+    font-size:22px;
+   border: none;
+   outline: none;
+   margin: 0%;
+   
+   background-color:  rgb(159, 151, 151);
+
+
+}
+@media (max-width:576px){
+.inputtext{
+    width: 220px;
+    height: auto;
+    font-size: 18px;
+    margin-left:0px;
+margin-top:6px;
+position: absolute;
+}
+}
+@media (max-width:576px) {
+    .formtwo{
+        margin-right:920px;
+        width: 120px;
+        height: 40px;
+
+        /* position: absolute; */
+    }}
+    @media (max-width:576px){
+        .icon-two{
+            font-size: 20px;
+        }
+    }
+    @media(max-width:576px){
+        .inputsubmit{
+            margin-left: -900px;
+            margin-top:7px ;
+    
+        }}
+      
+    .address{
+        margin-left: 270px;
+        padding: 1px;
+        font-size: 22px;
+        color: red;
+    }
+    @media (max-width:606px) {
+        .address{
+           font-size: 16px;
+           margin-left: 70px;
+       }}
+    
+ .formtwo{
+    background-color:rgb(229, 144, 7);
+    width: 190px;
+    height: 44px;
+    margin-left: 746px;
+    border-radius: 7px;
+    margin-top: -45px;
+    text-align: center;
+ }
+.inputsubmit{
+    font-size:22px;
+border: none;
+outline: none;
+border-radius: 7px;
+/* margin-left: 180px; */
+background-color: rgb(229, 144, 7);
+
+    
+}
+.icon-two{
+
+    padding: 6px;
+    font-size: 26px;
+}
+.title-one h3{
+    font-weight: bold;
+    
+
+    /* font-weight: bolder; */
+}
+.title-one span{
+/* margin-top: -30px; */
+    font-size: 22px;
+}
+.title-two{
+    font-size:22px;
+}
+.title-two span{
+    color: #d18c0b;
+}
+.title-three i{
+font-size: 22px;
+padding-right: 40px;
+padding-left: 20px;
+border: 1px soild gray;
+}
+.title-three i:hover{
+    color: #d18c0b;
+    cursor: pointer;
+}
+.over-two {
+/* margin-left: 60px; */
+margin-right: 90px;
+}
+.over-th{
+    margin-left: 100px;
+}
+.over-four{
+    margin-left: -50px;
+}
+.end-two ul li{
+    list-style-type: none;
+}
+ .nav-link:hover{
+    color: #d18c0b;
+}
+.end-one{
+    margin-left: 50px;
+}
+.end-one img{
+    margin-left: 70px;
+}
+@media (max-width:576px) {
+    .end-one img{
+        margin-left: 120px;
+        
+    }}
+    @media (max-width:576px) {
+        .span{
+        
+            margin-left: -200px;
+            
+        }}
+.normal{
+    font-size: 26px;
+    
+
+}
+.span{
+    color: #d18c0b;
+    font-size: 30px;
+    font-weight: bold;
+    margin-left: 50px;
+}
+@media (max-width:576px) {
+    .end-one p{
+        font-size: 20px;
+        
+    }}
+.end-two{
+    margin-left: 0px;
+}
+@media (max-width:576px) {
+    .end-two{
+        margin-left:50px;
+        
+    }
+    .end-two p{
+        font-size: 20px;
+    }
+}
+@media(max-width:576px){
+    .end-three{
+        margin-left: 50px;
+        
+    }
+    .end-three p {
+        font-size: 16px;
+        margin-right:120px;
+    }
+}
+.end-four{
+    margin-left: 50px;
+}
+.end-icon i{
+font-size: 33px;
+}
+
+.loginform{
+border-radius: 17px;
+    background-color: rgb(0,0,0,0.6);
+    padding: 0px;
+    margin: auto;
+    box-shadow: 2px 5px 4px 5px;
+    /* height: 970px; */
+}
+.buttonadd{
+    /* justify-content: center; */
+    margin: auto;
+
+}
+.texticon{
+    font-size: 60px;
+}
+.marq{
+    background-color: rgb(0,0,0,0.7);
+}
+
+.counter{
+    background-image:linear-gradient(rgb(0,0,0,0.7), rgb(0,0,0,0.8)),url(./newproject/count.jpeg);
+    width: 100%;
+    filter: blur(0.5px);
+    height: 300px;
+}
+.arun{
+      padding-top: 100px;
+}
+.spanone{
+   font-style: italic;
+   color:#d18c0b;
+   font-size: 35px;
+   font-weight: bold;
+}
+.contactone Form{
+    width: 450px;
+    height: auto;
+padding: 40px;
+border-radius: 10px;
+    background-color: rgb(0,0,0,0.5);
+    /* background: transparent; */
+    
+
+}
+.formcontrol{
+    color: red;
+}
+.aru{
+    margin-left: 200px;
+    font-size: 23px;
+}
+
+.map-one{
+    /* width: 100%;
+    height: 400px; */
+    /* background-color:linear-gradient(red,rgb(0,0,0,0.1)); */
+    border-radius: 40px;
+    margin-left: 10%;
+    box-shadow: 2px 4px 5px;
+    margin-bottom: 50px;
+}
+.googlemap img:hover{
+    opacity: 0.8;
+    width: 79%;
+    height: 390px;
+    /* border: 1px soild black; */
+    cursor: pointer;
+   
+    
+}
+.loginstepone{
+    width: 400px;
+    height: auto;
+    background-color: rgb(0,0,0,0.5);
+    border-radius: 20px;
+    padding: 32px;
+    margin: auto;
+    /* text-align: center; */
+    /* margin-bottom: 40px; */
+   
+    
+}
+.submitbtn{
+    width: 120px;
+    height: 40px;
+    border: none;
+    font-size: 23px;
+    outline: 2px solid orange;
+    color: orange;
+    margin-top: 40px;
+    margin-left: 110px;
+    border-radius: 8px;
+    /* text-align: center; */
+}
+.submitbtn:hover{
+    background-color: #d18c0b;
+    color: white;
+    transition: 0.8s;
+}
+.textname{
+    color: orange;
+}
+.vaild{
+color: rgb(199, 28, 28); 
+    font-size: 16px;
+    margin-top: -20px;
+}
+.load{
+
+    position: absolute;
+    margin-top: 40px;
+    margin-left: 130px;
+    font-size: 16px;
+}
+.firstpage{
+    /* background: linear-gradient(red,yellow,orange,green,pink, blue); */
+    background:url(./newproject/slider.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 650px;
+    justify-content: center;
+
+}
+.registerone{
+    list-style-type: none;
+   
+    padding-top: 30px;
+   
+}
+.aa{
+    color: white;
+
+}
+.welcome{
+    color:#d18c0b;
+    
+}
+.boxs{ 
+    color:#d18c0b;
+    height: 3px;
+    background-color: black;
+    position: relative;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    box-shadow: 2px 3px 5px white;
+
+    
+ 
+}
+.loginimage{
+    background-image: url(./newproject/login.jpeg);
+}
+
+.resgitertwo{
+    margin-top: -490px;
+    padding-top: 120px;
+    padding-left: 40px;
+    height: auto;
+    /* justify-content: center; */
+    /* margin-left: 300px; */
+    /* background-color: aliceblue; */
+}
+.researchone{
+    position: absolute;
+    background-color: orchid;
+    margin-top: -10% ;
+    margin-left:10% ;
+    margin-right: 10%;
+    height: auto;
+    padding: 10px;
+    padding-bottom: 10px;
+    box-shadow: 2px 3px 4px;
+}
+.researchone p{
+    font-size: 25px;
+    text-align: center;
+}
+.researchone h2{
+    text-align: center;
+    padding: 20px;
+}
+.researchtwo{
+    margin-top: 50px;
+    display: flex;
+    margin-left: 7%;
+    margin-right: 7%;
+    color: black;
+    justify-content: space-between;
+}
+.reseone img{
+border-radius: 100%;
+}
+.reseone{
+    padding-left: 40px;
+}
